@@ -86,10 +86,11 @@ int main( void )
 	mat4 Ortho_Projection = ortho(-16.0f, 16.0f, 9.0f, -9.0f, 0.1f, 100.0f);
  
 	mat4 View = lookAt(
-		vec3(1, 1, 1),
+		vec3(0, 0, 20),
 		vec3(0, 0, 0),
 		vec3(0, 1, 0)
 	);
+
 
 	mat4 Model = mat4(1.0f);
 
