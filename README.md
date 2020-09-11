@@ -1,9 +1,7 @@
 # OpenGL Tutorial
- 
 
-## Notes
 
-###### Transformation
+## Transformation
 Translation Matrices
 ```
 1 0 0 X
@@ -37,7 +35,7 @@ glm::rotate( angle_in_degrees, myRotationAxis );
 ```
 it's not clear yet how rotation works behind the scene
 
-##### Pipeline
+## Pipeline
       - Vertex -> Fragment
       - Bind different buffer to draw different object in the main loop, remember to call attribute pointer function again.
       - Buffer data need to be updated in order to change color in the main loop.
